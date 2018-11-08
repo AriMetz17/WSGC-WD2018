@@ -1,0 +1,55 @@
+body {
+	background-color: #ccfeff;
+	margin: 0% 12%;
+	border: 20px dotted #ffffff;
+	padding: 10px 10px 10px 10px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	color: #009699;
+	text-align: center;
+}
+
+p {
+	margin: 2em;
+}
+
+blockquote {
+	border: 5px solid white ;
+	border-radius: 20px;
+	background-color: #ff674d;
+	color: white;
+	box-shadow: 0px 6px 15px #888888;
+	text-align: center;
+	font-weight: bold;
+	padding: 1em;
+	margin: 1em 8em;
+}
+
+#section {
+	border:5px dashed #009699;
+	border-radius: 20px;
+	padding: 10px;
+	margin: 2em 5em;
+}
+
+#software {
+	margin: 0px auto;
+	text-align: center;
+	padding: 10px;
+}
+
+td {
+	width: 200px;
+}
+
+ul {
+	/*list-style-type: circle;
+	list-style-image: url('images/icon_check.png');*/
+	margin-left: 5%;
+}
+
+li {
+	margin: 10px;
+}
