@@ -45,6 +45,11 @@ blockquote {
 	padding: 10px;
 }
 
+#today
+{
+	color: #ff674d;
+}
+
 td {
 	width: 200px;
 }
