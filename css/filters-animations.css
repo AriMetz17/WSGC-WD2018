@@ -1,82 +1,88 @@
+/*
+	The Waldorf School of Garden City
+	Web Design Elective Website
+	Created by: Mrs. Ariana Metzler
+	filters-animations.css
+/*
+
 /* CSS Syntax:
-filter:
-    none
-    blur()
-    brightness()
-    contrast()
-    drop-shadow()
-    grayscale()
-    hue-rotate()
-    invert()
-    opacity()
-    saturate()
-    sepia()
-    url()
+	filter:
+		none
+		blur()
+		brightness()
+		contrast()
+		drop-shadow()
+		grayscale()
+		hue-rotate()
+		invert()
+		opacity()
+		saturate()
+		sepia()
+		url()
 */
 
 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    float:left;
-    width:31%;
-    padding: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	float:left;
+	width:31%;
+	padding: 10px;
 }
 
 
 img.filter1 {
-  filter:none;
-  -webkit-filter:none;
+	filter:none;
+	-webkit-filter:none;
 }
 img.filter2 {
-  filter:saturate(50%);
-  -webkit-filter:saturate(50%);
+	filter:saturate(50%);
+	-webkit-filter:saturate(50%);
 }
 img.filter3 {
-  filter:grayscale(100%);
-  -webkit-filter:grayscale(100%);
+	filter:grayscale(100%);
+	-webkit-filter:grayscale(100%);
 }
 img.filter4 {
-  filter:opacity(50%);
-  -webkit-filter:opacity(50%);
+	filter:opacity(50%);
+	-webkit-filter:opacity(50%);
 }
 img.filter5 {
-  filter:invert(100%);
-  -webkit-filter:invert(100%);
+	filter:invert(100%);
+	-webkit-filter:invert(100%);
 }
 img.filter6 {
-  filter:sepia(100%);
-  -webkit-filter:sepia(100%);
+	filter:sepia(100%);
+	-webkit-filter:sepia(100%);
 }
 
 
 /* ANIMATIONS */
 img.animation1 {
-    animation: animation1 2s infinite alternate;
-    -webkit-animation: animation1 2s infinite alternate;
-    width:40%;
+	animation: animation1 2s infinite alternate;
+	-webkit-animation: animation1 2s infinite alternate;
+	width:40%;
 }
 
 img.animation2 {
-    animation: animation2 2s infinite alternate;
-    -webkit-animation: animation2 2s infinite alternate;
-
+	animation: animation2 2s infinite alternate;
+	-webkit-animation: animation2 2s infinite alternate;
 }
 
 @keyframes animation1 {
-    from {filter: invert(0%);}
-    to {filter: invert(100%);}
+	from {filter: invert(0%);}
+	to {filter: invert(100%);}
 }
 @-webkit-keyframes animation1 {
-    from {filter: invert(0%);}
-    to {filter: invert(100%);}
+	from {filter: invert(0%);}
+	to {filter: invert(100%);}
 }
 
 @keyframes animation2 {
-  from {width: 20%;}
-  to {width: 40%;}
+	from {width: 20%;}
+	to {width: 40%;}
 }
 @-webkit-keyframes animation2 {
-    from {width: 30%;}
-    to {width: 50%;}
+	from {width: 30%;}
+	to {width: 50%;}
 }
