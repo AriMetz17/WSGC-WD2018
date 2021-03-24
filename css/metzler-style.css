@@ -1,72 +1,61 @@
-/*
-	The Waldorf School of Garden City
-	Web Design Elective Website
-	Created by: Mrs. Ariana Metzler
-	metzler-style.css
-/*
-
-/* Fonts from: https://fonts.google.com */
-@import url('https://fonts.googleapis.com/css?family=Pacifico');
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+/* 
+### My Color Palette ###
+    Mint: #96ceb4
+    Yellow: #ffeead
+    Gold: #ffcc5c
+    Coral: #ff6f69
+*/
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 body {
-	background-color: #ccfeff;
-	margin: 0% 12%;
-	margin-top: 100px;
-	padding: 10px 10px 10px 10px;
-	font-family: 'Roboto', serif;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #ffeead;
+    padding-top: 95px;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: white;
+    background-color:#96ceb4;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Satisfy', cursive;    
 }
 
-h1,h2,h3,h4,h5,h6 {
-	color: #009699;
-	text-align: center;
-	font-family: 'Pacifico', cursive;
+
+img {
+    width:300px;
 }
 
-p {
-	margin: 2em;
+div p {
+    clear:both;
 }
 
-blockquote {
-	border: 5px solid white ;
-	border-radius: 20px;
-	background-color: #ff674d;
-	color: white;
-	box-shadow: 0px 6px 15px #888888;
-	text-align: center;
-	font-weight: bold;
-	padding: 1em;
-	margin: 1em 8em;
+.center {
+  margin: auto;
+  width: 60%;
 }
 
-#section {
-	border:5px dashed #009699;
-	border-radius: 20px;
-	padding: 10px;
-	margin: 2em 5em;
+.emphasize {
+    background-color:#ff6f69;
+    padding:15px;
+    border-radius: 10px;
 }
 
-#software {
-	margin: 0px auto;
-	text-align: center;
-	padding: 10px;
+.card div {
+    margin-top: 20px;
+    clear:both;
+    margin-bottom: 20px;
 }
 
-#today
-{
-	color: #ff674d;
+#picright{
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
 
-td {
-	width: 200px;
-}
-
-ul {
-	list-style-type: circle;
-	list-style-image: url('images/icon_check.png');
-	margin-left: 5%;
-}
-
-li {
-	margin: 10px;
+#picleft {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
